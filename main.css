@@ -1,0 +1,67 @@
+@import'vars.css';
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.page{
+    background-image: url("background.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+
+    font-size: var(--font-size_main);
+    color: var(--text-color_main);
+}
+.container {
+    margin: 0 auto;
+}
+@media (min-width: 576px) {    
+.container {
+max-width: 540px;
+}
+}
+@media (min-width: 768px) {
+.container {
+max-width: 720px;
+}
+}
+@media (min-width: 992px) {
+.container {
+max-width: 960px;
+}
+}
+@media (min-width: 1200px) {
+.container {
+max-width: 1140px;
+}
+}
+@media (min-width: 1400px) {
+.container {
+max-width: 1320px;
+}
+}
+
+.container__section{
+    margin: 45px 0;
+}
+
+.section__head {
+	text-align: center;
+	border-bottom: 2px solid #ffffff;
+}
+.card {
+	width: 150px;
+	place-self: center;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 15px 0;
+}
+.bnb{
+    margin-left: 37px;
+}
+.meg{
+    margin-left: 42px;
+}
